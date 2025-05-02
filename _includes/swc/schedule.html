@@ -3,65 +3,38 @@
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>08:30</td>  <td>Introducing the Shell and How to Navigate</td> </tr>
-      <tr> <td>09:15</td>  <td>Working with Files and Directories</td> </tr>
-      <tr> <td>10:05</td>  <td>Pipes and Filters</td> </tr>
-      <tr> <td>10:40</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Loops</td> </tr>
+      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>11:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Shell Scripts</td> </tr>
-      <tr> <td>13:45</td>  <td>Finding Things</td> </tr>
-      <tr> <td>14:30</td>  <td>Day 1 - Wrap-up</td> </tr>
-      <tr> <td>15:00</td>  <td>END</td> </tr>
-    </table>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
       {% if site.flavor == "r" %}
-      <tr> <td>08:30</td>  <td>Introduction to R and RStudio</td> </tr>
-      <tr> <td>09:30</td>  <td>Project Management with RStudio</td> </tr>
-      <tr> <td>10:00</td>  <td>Seeking Help</td> </tr>
-      <tr> <td>10:40</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Data Structures</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Exploring Data Frames</td> </tr>
-      <tr> <td>13:30</td>  <td>Subsetting Data</td> </tr>
+      <tr> <td>13:00</td>  <td>Building Programs with R</td> </tr>
+      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>15:00</td>  <td>Building Programs with R (Continued)</td> </tr>
       {% elsif site.flavor == "python" %}
-      <tr> <td>08:30</td>  <td>Introduction to Python and Jupyter</td> </tr>
-      <tr> <td>09:30</td>  <td>Project Management with Jupyter Lab</td> </tr>
-      <tr> <td>10:00</td>  <td>Seeking Help</td> </tr>
-      <tr> <td>10:40</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Data Structures</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Exploring Data Frames</td> </tr>
-      <tr> <td>13:30</td>  <td>Subsetting Data</td> </tr>
+      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
+      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>15:00</td>  <td>Building Programs with Python (Continued)</td> </tr>
       {% else %}
       {% include warning-flavor.html %}
       {% endif %}
-      <tr> <td>14:30</td>  <td>Day 2 - Wrap-up</td> </tr>
-      <tr> <td>15:00</td>  <td>END</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td>END</td> </tr>
     </table>
   </div>
-</div>
-<div class="row">
   <div class="col-md-6">
-    <h3>Day 3</h3>
+    <h3>Day 2</h3>
     <table class="table table-striped">
-      {% if site.flavor == "r" %}
-      <tr> <td>08:30</td>  <td>Control Flow</td> </tr>
-      <tr> <td>09:00</td>  <td>Creating Publication-Quality Graphics with ggplot2</td> </tr>
-      <tr> <td>10:40</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Vectorization</td> </tr>
-      <tr> <td>11:30</td>  <td>Functions</td> </tr>
+      <tr> <td>09:00</td>  <td>Version Control with Git</td> </tr>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>11:00</td>  <td>Version Control with Git (Continued)</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Writing Data</td> </tr>
-      <tr> <td>13:30</td>  <td>Data Frame Manipulation with tidyr</td> </tr>
-      <tr> <td>14:30</td>  <td>Day 3 - Wrap-up</td> </tr>
-      <tr> <td>14:45</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
-      <tr> <td>15:00</td>  <td>END</td> </tr>
+      <tr> <td>13:00</td>  <td>Managing Data with SQL</td> </tr>
+      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
+      <tr> <td>15:00</td>  <td>Managing Data with SQL (Continued)</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></td> </tr>
+      <tr> <td>16:40</td>  <td>END</td> </tr>
     </table>
   </div>
 </div>
